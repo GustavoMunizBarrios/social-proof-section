@@ -32,11 +32,11 @@ html {
   width: 90%;
   max-width: 45.625rem;
   padding-bottom: 2.1875rem;
-  text-align: center;
   font-size: 1.1875rem;
   line-height: 1.2;
   font-weight: 500;
   color: hsl(303deg, 10%, 53%);
+  text-align: center;
 }
 
 .rated-section {
@@ -49,10 +49,10 @@ html {
   border-radius: 8px;
   height: 4.8rem;
   background-color: hsl(300deg, 24%, 96%);
-  text-align: center;
   font-size: 1.125rem;
   font-weight: 700;
   color: hsl(300deg, 43%, 22%);
+  text-align: center;
 }
 .rated-section__card img {
   margin: 14px 5px 12px 0;
@@ -64,9 +64,9 @@ html {
   max-width: 28.125rem;
 }
 .opinion-section__card {
+  margin-bottom: 1.25rem;
   border-radius: 8px;
   height: 16.4rem;
-  margin-bottom: 1.25rem;
   background-color: hsl(300deg, 43%, 22%);
 }
 .opinion-section__card--title {
@@ -75,47 +75,46 @@ html {
   padding: 2.4rem 0 1.5rem 2.3rem;
 }
 .opinion-section__card--title img {
-  width: 2.7rem;
   border-radius: 50%;
+  width: 2.7rem;
 }
 .opinion-section__card--title-text {
   margin-left: 1.5rem;
 }
 .opinion-section__card--title-name {
+  margin-bottom: 0.25rem;
   font-size: 1.125rem;
   font-weight: 500;
   color: hsl(300deg, 24%, 96%);
-  margin-bottom: 0.25rem;
 }
 .opinion-section__card--title-verified {
   font-size: 1.0625rem;
   color: hsl(333deg, 80%, 67%);
 }
 .opinion-section__card--opinion {
-  padding-left: 2.3rem;
   width: 88%;
+  padding-left: 2.3rem;
   font-size: 1.0625rem;
   line-height: 1.4;
-  text-align: left;
   color: white;
+  text-align: left;
 }
 
 .pattern-bottom {
   position: absolute;
   bottom: -70%;
-  left: 0%;
+  right: 0%;
 }
 
 .attribution {
   margin: 0 auto;
-  position: absolute;
-  width: 100vw;
+  width: 45%;
   height: 40px;
-  bottom: -75%;
-  display: flex;
   font-size: 11px;
+}
+.attribution p {
   text-align: center;
 }
-.attribution a {
+.attribution p a {
   color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=mobile.css.map */

@@ -56,11 +56,11 @@ html {
     width: 90%;
     max-width: 45.625rem;
     padding-bottom: 2.1875rem;
-    text-align: center;
     font-size: $--19px;
     line-height: 1.2;
     font-weight: 500;
     color: $neutral-color01;
+    text-align: center;
 }
 .rated-section {
     margin: 0 auto;
@@ -71,10 +71,10 @@ html {
         border-radius: 8px;
         height: 4.8rem;
         background-color: $neutral-color02;
-        text-align: center;        
         font-size: $--18px;
         font-weight: 700;
         color: $primary-color;
+        text-align: center;
         & img {
             margin: 14px 5px 12px 0;
         }
@@ -85,9 +85,9 @@ html {
     width: 88%;
     max-width: 28.125rem;
     &__card {
+        margin-bottom: 1.25rem;
         border-radius: 8px;
         height: 16.4rem;
-        margin-bottom: 1.25rem;
         background-color: $primary-color;
         &--title {
             display: flex;
@@ -95,17 +95,17 @@ html {
             padding: 2.4rem 0 1.5rem 2.3rem;
 
             & img {
-                width: 2.7rem;
                 border-radius: 50%;
+                width: 2.7rem;
             }
             &-text {
                 margin-left: 1.5rem;                
             }
             &-name {
+                margin-bottom: 0.25rem;
                 font-size: $--18px;
                 font-weight: 500;
                 color: $neutral-color02;
-                margin-bottom: 0.25rem;
             }
             &-verified {
                 font-size: $--17px;
@@ -113,12 +113,12 @@ html {
             }
         }
         &--opinion {
-            padding-left: 2.3rem;
             width: 88%;
+            padding-left: 2.3rem;
             font-size: $--17px;
             line-height: 1.4;
-            text-align: left;
             color: $neutral-color03;
+            text-align: left;
         }
 
     }
@@ -127,20 +127,19 @@ html {
 .pattern-bottom{
     position: absolute;
     bottom: -70%;
-    left: 0%;
+    right: 0%;
 }
 
 
 .attribution {
     margin: 0 auto ;
-    position: absolute;
-    width: 100vw;
+    width: 45%;
     height: 40px;
-    bottom: -75%;
-    display: flex;
     font-size: 11px;
-    text-align: center;
-    & a {        
-        color: hsl(228, 45%, 44%);
+    & p {
+        text-align: center;
+        & a {        
+            color: hsl(228, 45%, 44%);
+        }
     }
   }
