@@ -1,0 +1,62 @@
+@mixin cards-styles {
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    height: 4.3rem;
+    & div {
+        width: 2rem;
+        height: 1rem;
+    }
+    & img {
+        margin: 0.875rem 0 0.875rem 0.7rem;
+        width: 1.3rem;
+        height: 1.28rem;
+    }
+    p {
+        margin-left: 2.4rem;
+        font-size: 1.3rem;
+    }
+}
+.pattern-top {
+    display: none;
+}
+.pattern-top-desktop {
+    display: block;
+    position: absolute;
+    top: 0;
+    //left: 10%;
+}
+.title {
+    text-align: left;
+    margin: 6.3rem 0 2rem 7rem;
+    width: 26.8rem;
+    font-size: 4.2rem;
+}
+.description {
+    margin: 0 0 0 7rem;
+    width: 35rem;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    text-align: left;
+}
+.rated-section {
+    position: absolute;
+    top: 11rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50rem;
+    max-width: 87.5rem;
+    &__card--1 {
+        @include cards-styles();
+        margin-right: 7.2rem;
+    } 
+    &__card--2 {
+        @include cards-styles();
+        margin-right: 3.6rem;
+    }
+    &__card--3 {
+        @include cards-styles();
+    }
+}
