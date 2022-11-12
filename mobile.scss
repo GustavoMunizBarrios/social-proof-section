@@ -131,10 +131,13 @@ html {
     }
 }
 
-.pattern-bottom{
+.pattern-bottom {
     position: absolute;
     bottom: -70%;
     right: 0%;
+}
+.pattern-bottom-desktop {
+    display: none;
 }
 
 

@@ -110,6 +110,10 @@ html {
   right: 0%;
 }
 
+.pattern-bottom-desktop {
+  display: none;
+}
+
 .attribution {
   margin: 0 auto;
   width: 45%;
