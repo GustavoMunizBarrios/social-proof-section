@@ -10,13 +10,13 @@
 
 .title {
   text-align: left;
-  margin: 6.3rem 0 2rem 7rem;
+  margin: 6.3rem 0 2rem 18rem;
   width: 26.8rem;
   font-size: 4.2rem;
 }
 
 .description {
-  margin: 0 0 0 7rem;
+  margin: 0 0 0 18rem;
   width: 35rem;
   font-size: 1.4rem;
   line-height: 1.4;
@@ -26,7 +26,7 @@
 .rated-section {
   position: absolute;
   top: 11rem;
-  right: 5rem;
+  right: 18rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -91,4 +91,44 @@
 .rated-section__card--3 p {
   margin-left: 2.4rem;
   font-size: 1.3rem;
+}
+
+.opinion-section {
+  position: absolute;
+  top: 34rem;
+  left: 18rem;
+  margin: 0;
+  display: flex;
+  width: 90rem;
+  max-width: 2000px;
+}
+.opinion-section__card {
+  margin-right: 2.5em;
+  width: 29rem;
+  height: 18.5rem;
+}
+.opinion-section__card--title {
+  padding: 3.1rem 0 2rem 2.4rem;
+}
+.opinion-section__card--title img {
+  width: 3.3rem;
+}
+.opinion-section__card--title-text {
+  font-size: 1.4rem;
+  margin-left: 1.9rem;
+}
+.opinion-section__card--title-name {
+  font-size: 1.45rem;
+}
+.opinion-section__card--title-verified {
+  font-size: 1.36rem;
+}
+.opinion-section__card--opinion {
+  font-size: 1.3rem;
+}
+.opinion-section .card-2 {
+  margin-top: 1.2rem;
+}
+.opinion-section .card-3 {
+  margin-top: 2.4rem;
 }/*# sourceMappingURL=desktop.css.map */
