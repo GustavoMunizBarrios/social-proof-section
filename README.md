@@ -16,7 +16,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/GustavoMunizBarrios/social-proof-section)
-- Live Site URL: [Vercel]()
+- Live Site URL: [Vercel](https://social-proof-section-theta-self.vercel.app/)
 
 
 ### Built with
